@@ -38,7 +38,7 @@ class Venda:
         data_hora = datetime.now().strftime("%d-%m-%Y %H:%M")
 
         # Criar um arquivo PDF
-        pdf = canvas.Canvas(f"Notas_Fiscais/Nota_Fiscal_{data_hora}.pdf", pagesize=letter)
+        pdf = canvas.Canvas(f"Notas-Fiscais/Nota-Fiscal-{data_hora}.pdf", pagesize=letter)
 
         # Adicionar informações à nota fiscal
        
